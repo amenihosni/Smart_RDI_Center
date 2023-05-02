@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>menu</class>
+ <widget class="QMainWindow" name="menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1042</width>
+    <height>746</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.478, y1:0.505682, x2:1, y2:1, stop:0 rgba(23, 89, 152, 255), stop:1 rgba(255, 255, 255, 255));</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>-30</y>
+      <width>1081</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>cto.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>-10</y>
+      <width>301</width>
+      <height>711</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border-radius: 20px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>20</y>
+       <width>151</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;RDI &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;CENTRE&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_chercheur">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>300</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{color:white;
+     border-radius: 10px;}
+QPushButton:hover { 
+background-color: #81a6ce; }</string>
+     </property>
+     <property name="text">
+      <string>Gestion_chercheur</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_equipement">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>400</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{color:white;
+     border-radius: 10px;}
+QPushButton:hover { 
+background-color: #81a6ce; }</string>
+     </property>
+     <property name="text">
+      <string>Gestion_equipement</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_agent">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>200</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{color:white;
+     border-radius: 10px;}
+QPushButton:hover { 
+background-color: #81a6ce; }</string>
+     </property>
+     <property name="text">
+      <string>Gestion_agent</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_article">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>510</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{color:white;
+     border-radius: 10px;}
+QPushButton:hover { 
+background-color: #81a6ce; }</string>
+     </property>
+     <property name="text">
+      <string>Gestion_article</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_coference">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>620</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{color:white;
+     border-radius: 10px;}
+QPushButton:hover { 
+background-color: #81a6ce; }</string>
+     </property>
+     <property name="text">
+      <string>Gestion_conference</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1042</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
